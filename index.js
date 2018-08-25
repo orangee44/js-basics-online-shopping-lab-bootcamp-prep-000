@@ -56,6 +56,12 @@ function removeFromCart(item) {
   return cart;
 }
 
+  for (var i = 0; i < cart.length; i++) {
+    if (cart[i].hasOwnProperty(item)) {
+      cart.splice(i, 1);
+      return cart;
+    }
+
 
 
 function placeOrder(cardNumber) {
