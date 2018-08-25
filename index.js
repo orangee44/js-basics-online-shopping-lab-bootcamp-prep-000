@@ -50,6 +50,9 @@ function removeFromCart(item) {
       delete cart[i];
     }
   }
+  else {
+    return "That item is not in your cart."
+  }
   return cart;
 }
 
