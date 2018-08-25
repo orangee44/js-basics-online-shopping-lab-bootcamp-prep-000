@@ -53,8 +53,13 @@ function removeFromCart(item) {
   }
 }
 
+removeFromCart() removes the specified item from the cart:
 
+      Error: Expected 'watermelon' to equal 'yams'
+      + expected - actual
 
+      -watermelon
+      +yams
 
 
 function placeOrder(cardNumber) {
